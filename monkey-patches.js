@@ -84,7 +84,7 @@
     /***
      * fadeIn() and fadeOut() now removes filter attribute in IE to resolve
      * clearType issues in IE6 and IE7. Can be short-circuited by setting
-     * cancel to false. Addresses tickets #2457, #3230, #4779 and others.
+     * cancel to true. Addresses tickets #2457, #3230, #4779 and others.
     */
     var _fadeIn = $.fn.fadeIn;
 
